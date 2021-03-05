@@ -31,4 +31,10 @@
 .product__rating {
   display: flex;
   flex-direction: row;
+  color: gold;
+  font-size: 5em;
+}
+
+.product__ratingStars {
+  font-size: 5em;
 }

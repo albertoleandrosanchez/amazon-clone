@@ -1,5 +1,6 @@
 import { useStateValue } from './StateProvider';
 import "./Product.css"
+import StarRateIcon from '@material-ui/icons/StarRate';
 
 function Product({id, price,title,image,rating}) {
    
@@ -20,7 +21,6 @@ function Product({id, price,title,image,rating}) {
                 title: title,
             }
         });
-        console.log('el basket',basket);
     }
 
     return (
@@ -33,7 +33,7 @@ function Product({id, price,title,image,rating}) {
                 </p>
                 <div className="product__rating">
                     {Array(rating).fill().map((_, i) =>(
-                        <p>♥</p>
+                       <StarRateIcon style={{ fontSize: 25, color: 'gold'}} /> 
     ))}
                     
                 </div>

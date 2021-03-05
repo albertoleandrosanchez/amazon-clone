@@ -9,6 +9,11 @@
   color: wheat;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .header__logo {
   width: 7em;
   object-fit: contain;
@@ -58,6 +63,4 @@
   display: flex;
   align-items: center;
   margin: 0 0.8em;
-  color: #fff;
-  text-decoration: none;
 }
